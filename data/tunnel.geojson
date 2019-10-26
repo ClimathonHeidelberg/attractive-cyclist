@@ -1,0 +1,3151 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-10-26T15:29:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/5209311",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7119186,
+            49.4111178
+          ],
+          [
+            8.7122033,
+            49.4105107
+          ]
+        ]
+      },
+      "id": "way/5209311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/14197792",
+        "highway": "service",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6999557,
+            49.4120704
+          ],
+          [
+            8.6998732,
+            49.4120655
+          ],
+          [
+            8.6998925,
+            49.4119414
+          ],
+          [
+            8.7000203,
+            49.4119501
+          ],
+          [
+            8.7001185,
+            49.4119569
+          ],
+          [
+            8.7001481,
+            49.4119589
+          ],
+          [
+            8.7001414,
+            49.4119966
+          ]
+        ]
+      },
+      "id": "way/14197792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24635973",
+        "TMC:cid_58:tabcd_1:Class": "Point",
+        "TMC:cid_58:tabcd_1:Direction": "both",
+        "TMC:cid_58:tabcd_1:LCLversion": "9.00",
+        "TMC:cid_58:tabcd_1:LocationCode": "57797",
+        "bicycle": "no",
+        "foot": "no",
+        "hazmat:E": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "24/7",
+        "maxspeed": "50",
+        "name": "Gaisbergtunnel",
+        "oneway": "yes",
+        "railway": "abandoned",
+        "sidewalk": "no",
+        "source:maxspeed": "DE:urban",
+        "source:railway": "Messtischblatt 23, Heidelberg 1878",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Gaisbergtunnel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6954142,
+            49.4068912
+          ],
+          [
+            8.6957681,
+            49.4069254
+          ],
+          [
+            8.6994053,
+            49.407945
+          ]
+        ]
+      },
+      "id": "way/24635973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24687558",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "layer": "-2",
+        "maxspeed": "90",
+        "name": "Neckartalbahn",
+        "operator": "DB Netz AG",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:traffic_mode": "mixed",
+        "ref": "4100",
+        "ref:La": "41",
+        "source:geometry": "Datenquelle: LGL, www.lgl-bw.de",
+        "source:maxspeed": "LF7 \"9\" bei 18.4",
+        "tunnel": "yes",
+        "tunnel:name": "Königstuhltunnel",
+        "usage": "main",
+        "voltage": "15000",
+        "workrules": "DE:EBO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6925892,
+            49.3997348
+          ],
+          [
+            8.6989189,
+            49.4024414
+          ],
+          [
+            8.7053606,
+            49.4051957
+          ],
+          [
+            8.7100908,
+            49.4072181
+          ],
+          [
+            8.713813,
+            49.4088095
+          ],
+          [
+            8.7142846,
+            49.4090626
+          ],
+          [
+            8.7150003,
+            49.409419
+          ],
+          [
+            8.7151333,
+            49.4095096
+          ],
+          [
+            8.7155299,
+            49.4097797
+          ],
+          [
+            8.7159264,
+            49.4101188
+          ],
+          [
+            8.7163211,
+            49.4105072
+          ],
+          [
+            8.7163695,
+            49.4105703
+          ],
+          [
+            8.7167805,
+            49.4111065
+          ],
+          [
+            8.7171444,
+            49.4119494
+          ],
+          [
+            8.7174433,
+            49.4126426
+          ],
+          [
+            8.7176316,
+            49.4129697
+          ],
+          [
+            8.7178695,
+            49.4132731
+          ]
+        ]
+      },
+      "id": "way/24687558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24834175",
+        "highway": "service",
+        "lanes": "1",
+        "layer": "-1",
+        "maxheight": "2",
+        "oneway": "yes",
+        "surface": "paved",
+        "tunnel": "yes",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.674951,
+            49.4056974
+          ],
+          [
+            8.6749604,
+            49.4057089
+          ],
+          [
+            8.674966,
+            49.4057107
+          ],
+          [
+            8.6749824,
+            49.4057161
+          ],
+          [
+            8.6751812,
+            49.4057178
+          ]
+        ]
+      },
+      "id": "way/24834175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/25813728",
+        "highway": "service",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.672573,
+            49.4145733
+          ],
+          [
+            8.6728402,
+            49.4145718
+          ]
+        ]
+      },
+      "id": "way/25813728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/25971537",
+        "highway": "service",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6766861,
+            49.4229212
+          ],
+          [
+            8.6765504,
+            49.4228798
+          ],
+          [
+            8.6764796,
+            49.4228639
+          ]
+        ]
+      },
+      "id": "way/25971537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26006633",
+        "access": "no",
+        "highway": "service",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6673573,
+            49.4140154
+          ],
+          [
+            8.667918,
+            49.4139027
+          ],
+          [
+            8.6679458,
+            49.4139488
+          ]
+        ]
+      },
+      "id": "way/26006633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26112033",
+        "access": "permissive",
+        "highway": "service",
+        "layer": "-1",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6695172,
+            49.4069776
+          ],
+          [
+            8.6695005,
+            49.4066339
+          ],
+          [
+            8.6698002,
+            49.4066316
+          ]
+        ]
+      },
+      "id": "way/26112033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27620216",
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6928377,
+            49.4074744
+          ],
+          [
+            8.6928394,
+            49.4071795
+          ],
+          [
+            8.6930573,
+            49.4068016
+          ],
+          [
+            8.6930334,
+            49.4067897
+          ]
+        ]
+      },
+      "id": "way/27620216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27620748",
+        "highway": "footway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.684649,
+            49.4071212
+          ],
+          [
+            8.6844629,
+            49.4071144
+          ]
+        ]
+      },
+      "id": "way/27620748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27638572",
+        "access": "destination",
+        "highway": "service",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6522874,
+            49.4090647
+          ],
+          [
+            8.6523019,
+            49.4091163
+          ]
+        ]
+      },
+      "id": "way/27638572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27639779",
+        "access": "private",
+        "highway": "service",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6505326,
+            49.4224184
+          ],
+          [
+            8.650682,
+            49.4224559
+          ]
+        ]
+      },
+      "id": "way/27639779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28258451",
+        "cutting": "no",
+        "highway": "footway",
+        "surface": "cobblestone",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6706808,
+            49.4151569
+          ],
+          [
+            8.6708042,
+            49.4151729
+          ],
+          [
+            8.6710061,
+            49.4153019
+          ],
+          [
+            8.6710943,
+            49.4153034
+          ]
+        ]
+      },
+      "id": "way/28258451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29419860",
+        "foot": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "source": "survey",
+        "tunnel": "yes",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7085294,
+            49.4094649
+          ],
+          [
+            8.707895,
+            49.4093164
+          ],
+          [
+            8.707208,
+            49.4091954
+          ]
+        ]
+      },
+      "id": "way/29419860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30474946",
+        "highway": "steps",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7055678,
+            49.4105302
+          ],
+          [
+            8.7055792,
+            49.410689
+          ],
+          [
+            8.7056458,
+            49.4107613
+          ]
+        ]
+      },
+      "id": "way/30474946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32277576",
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "name": "Riesensteinweg",
+        "source:geometry": "HiRes aerial imagery",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6995199,
+            49.408023
+          ],
+          [
+            8.6995687,
+            49.4079597
+          ]
+        ]
+      },
+      "id": "way/32277576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39502299",
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "lit": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7199824,
+            49.4149026
+          ],
+          [
+            8.7199932,
+            49.4149079
+          ],
+          [
+            8.7203262,
+            49.4149251
+          ],
+          [
+            8.7204119,
+            49.4149295
+          ],
+          [
+            8.7204315,
+            49.4149383
+          ]
+        ]
+      },
+      "id": "way/39502299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42439737",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6670879,
+            49.412785
+          ],
+          [
+            8.6670915,
+            49.4127067
+          ],
+          [
+            8.6670927,
+            49.4126891
+          ],
+          [
+            8.6671004,
+            49.4125736
+          ],
+          [
+            8.6668783,
+            49.412569
+          ],
+          [
+            8.6667379,
+            49.4125683
+          ]
+        ]
+      },
+      "id": "way/42439737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44745066",
+        "highway": "footway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7063093,
+            49.4232039
+          ],
+          [
+            8.7063185,
+            49.4232621
+          ]
+        ]
+      },
+      "id": "way/44745066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80346016",
+        "access": "destination",
+        "highway": "service",
+        "layer": "-1",
+        "maxheight": "1.80",
+        "maxwidth": "2",
+        "service": "parking_aisle",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7052353,
+            49.4101331
+          ],
+          [
+            8.7052591,
+            49.4101635
+          ],
+          [
+            8.7052806,
+            49.4101752
+          ],
+          [
+            8.705307,
+            49.4101862
+          ],
+          [
+            8.7055077,
+            49.410225
+          ]
+        ]
+      },
+      "id": "way/80346016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/89354244",
+        "access": "private",
+        "highway": "service",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6419327,
+            49.4039542
+          ],
+          [
+            8.644131,
+            49.4042252
+          ],
+          [
+            8.6443437,
+            49.4036096
+          ],
+          [
+            8.6444547,
+            49.4032916
+          ]
+        ]
+      },
+      "id": "way/89354244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96690340",
+        "highway": "service",
+        "layer": "-1",
+        "service": "parking_aisle",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6916622,
+            49.4101367
+          ],
+          [
+            8.6916552,
+            49.4101694
+          ]
+        ]
+      },
+      "id": "way/96690340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/99954761",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6948451,
+            49.4080031
+          ],
+          [
+            8.6948213,
+            49.407906
+          ]
+        ]
+      },
+      "id": "way/99954761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/99954766",
+        "access": "destination",
+        "highway": "service",
+        "oneway": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6969763,
+            49.4089992
+          ],
+          [
+            8.6968743,
+            49.4092984
+          ],
+          [
+            8.6965977,
+            49.4092764
+          ],
+          [
+            8.6963377,
+            49.4092539
+          ],
+          [
+            8.6964407,
+            49.4089649
+          ]
+        ]
+      },
+      "id": "way/99954766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/99954770",
+        "access": "destination",
+        "highway": "service",
+        "maxheight": "1.9",
+        "oneway": "yes",
+        "service": "parking_aisle",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6951844,
+            49.4077896
+          ],
+          [
+            8.6951607,
+            49.4078527
+          ],
+          [
+            8.6950919,
+            49.4080039
+          ],
+          [
+            8.6948451,
+            49.4080031
+          ],
+          [
+            8.6945546,
+            49.4079528
+          ],
+          [
+            8.6944093,
+            49.4079277
+          ],
+          [
+            8.6943659,
+            49.4079199
+          ]
+        ]
+      },
+      "id": "way/99954770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102515276",
+        "intermittent": "yes",
+        "layer": "-1",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7331933,
+            49.4236404
+          ],
+          [
+            8.7331844,
+            49.4236201
+          ]
+        ]
+      },
+      "id": "way/102515276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102515279",
+        "intermittent": "yes",
+        "layer": "-1",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7329459,
+            49.4232404
+          ],
+          [
+            8.7329531,
+            49.4232062
+          ]
+        ]
+      },
+      "id": "way/102515279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103510966",
+        "highway": "footway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6537107,
+            49.4147846
+          ],
+          [
+            8.6537537,
+            49.4146858
+          ]
+        ]
+      },
+      "id": "way/103510966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107183701",
+        "access": "private",
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "no",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6417998,
+            49.4272987
+          ],
+          [
+            8.6419004,
+            49.4271426
+          ]
+        ]
+      },
+      "id": "way/107183701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107183717",
+        "access": "private",
+        "highway": "service",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6427247,
+            49.4275729
+          ],
+          [
+            8.6428439,
+            49.4273941
+          ]
+        ]
+      },
+      "id": "way/107183717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107236115",
+        "highway": "track",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6464601,
+            49.4136095
+          ],
+          [
+            8.6460171,
+            49.4137183
+          ]
+        ]
+      },
+      "id": "way/107236115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112266055",
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "source": "HiRes aerial imagery",
+        "surface": "concrete",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7333632,
+            49.4156815
+          ],
+          [
+            8.7334408,
+            49.4156854
+          ]
+        ]
+      },
+      "id": "way/112266055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127049684",
+        "layer": "-1",
+        "source:geometry": "HiRes aerial imagery",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7408986,
+            49.3875635
+          ],
+          [
+            8.7407951,
+            49.387353
+          ]
+        ]
+      },
+      "id": "way/127049684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127049685",
+        "layer": "-1",
+        "source:geometry": "HiRes aerial imagery",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7374075,
+            49.3870673
+          ],
+          [
+            8.737443,
+            49.3870373
+          ]
+        ]
+      },
+      "id": "way/127049685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127049687",
+        "layer": "-1",
+        "name": "Michelsbrunnengraben",
+        "source:geometry": "HiRes aerial imagery",
+        "source:name": "Datenquelle: LGL, www.lgl-bw.de",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7440116,
+            49.3871871
+          ],
+          [
+            8.7440645,
+            49.3872173
+          ]
+        ]
+      },
+      "id": "way/127049687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127049689",
+        "layer": "-1",
+        "source:geometry": "HiRes aerial imagery",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7406624,
+            49.3878113
+          ],
+          [
+            8.7407386,
+            49.3878041
+          ],
+          [
+            8.7407519,
+            49.387798
+          ],
+          [
+            8.7408664,
+            49.387676
+          ],
+          [
+            8.7408711,
+            49.3876664
+          ]
+        ]
+      },
+      "id": "way/127049689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129869264",
+        "access": "destination",
+        "highway": "service",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6522039,
+            49.4087691
+          ],
+          [
+            8.6522162,
+            49.4088124
+          ]
+        ]
+      },
+      "id": "way/129869264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/130765847",
+        "highway": "footway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6435056,
+            49.4262774
+          ],
+          [
+            8.6435823,
+            49.4261637
+          ]
+        ]
+      },
+      "id": "way/130765847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131478148",
+        "access": "destination",
+        "highway": "service",
+        "layer": "-1",
+        "level": "-1",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6930663,
+            49.4106435
+          ],
+          [
+            8.692869,
+            49.4108612
+          ],
+          [
+            8.6926433,
+            49.4111102
+          ]
+        ]
+      },
+      "id": "way/131478148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131479864",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "oneway": "no",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7127603,
+            49.4095111
+          ],
+          [
+            8.7127913,
+            49.4094451
+          ]
+        ]
+      },
+      "id": "way/131479864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131479865",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "oneway": "no",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7130963,
+            49.4089498
+          ],
+          [
+            8.7130291,
+            49.4090671
+          ],
+          [
+            8.7129648,
+            49.4091717
+          ]
+        ]
+      },
+      "id": "way/131479865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133479916",
+        "access": "destination",
+        "highway": "service",
+        "layer": "-1",
+        "maxheight": "1.80",
+        "maxwidth": "2",
+        "oneway": "yes",
+        "service": "parking_aisle",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7055077,
+            49.410225
+          ],
+          [
+            8.7055833,
+            49.4102402
+          ],
+          [
+            8.7058784,
+            49.4102996
+          ],
+          [
+            8.705752,
+            49.4105672
+          ],
+          [
+            8.7055678,
+            49.4105302
+          ],
+          [
+            8.7053813,
+            49.4104927
+          ],
+          [
+            8.7054879,
+            49.410267
+          ],
+          [
+            8.7055077,
+            49.410225
+          ]
+        ]
+      },
+      "id": "way/133479916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133616213",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "oneway": "no",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7128321,
+            49.4093584
+          ],
+          [
+            8.7129095,
+            49.4092065
+          ]
+        ]
+      },
+      "id": "way/133616213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133616214",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7122844,
+            49.4103634
+          ],
+          [
+            8.7127603,
+            49.4095111
+          ]
+        ]
+      },
+      "id": "way/133616214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133616217",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "oneway": "no",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7129421,
+            49.4092145
+          ],
+          [
+            8.7128536,
+            49.4093608
+          ]
+        ]
+      },
+      "id": "way/133616217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133616220",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "oneway": "no",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7129318,
+            49.4091645
+          ],
+          [
+            8.7129853,
+            49.4090544
+          ],
+          [
+            8.7130465,
+            49.4089445
+          ]
+        ]
+      },
+      "id": "way/133616220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133632667",
+        "artwork_type": "graffiti",
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "source": "HiRes aerial imagery",
+        "tourism": "artwork",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7181565,
+            49.4143851
+          ],
+          [
+            8.7180001,
+            49.414338
+          ],
+          [
+            8.7178817,
+            49.4142571
+          ]
+        ]
+      },
+      "id": "way/133632667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155220525",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "layer": "-2",
+        "maxspeed": "80",
+        "name": "Neckartalbahn",
+        "operator": "DB Netz AG",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:traffic_mode": "mixed",
+        "ref": "4100",
+        "ref:La": "41",
+        "source:geometry": "Datenquelle: LGL, www.lgl-bw.de",
+        "tunnel": "yes",
+        "tunnel:name": "Königstuhltunnel",
+        "usage": "main",
+        "voltage": "15000",
+        "workrules": "DE:EBO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7182203,
+            49.4137161
+          ],
+          [
+            8.7180954,
+            49.4136113
+          ],
+          [
+            8.717808,
+            49.4133002
+          ]
+        ]
+      },
+      "id": "way/155220525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155222655",
+        "bicycle": "no",
+        "foot": "no",
+        "hazmat:E": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-2",
+        "length": "918",
+        "lit": "24/7",
+        "maxspeed": "50",
+        "mofa": "no",
+        "name": "Schlossbergtunnel",
+        "oneway": "no",
+        "overtaking": "no",
+        "railway": "abandoned",
+        "smoothness": "good",
+        "source:maxspeed": "DE:urban",
+        "source:railway": "Messtischblatt 23, Heidelberg 1878",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Schlossbergtunnel",
+        "zone:maxspeed": "DE:urban",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.70725,
+            49.4091223
+          ],
+          [
+            8.7090192,
+            49.4094674
+          ],
+          [
+            8.7103739,
+            49.4098092
+          ],
+          [
+            8.7112223,
+            49.4101564
+          ],
+          [
+            8.7145407,
+            49.4118136
+          ],
+          [
+            8.7176912,
+            49.4135277
+          ]
+        ]
+      },
+      "id": "way/155222655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158368930",
+        "highway": "service",
+        "lanes": "1",
+        "layer": "-1",
+        "maxheight": "2",
+        "oneway": "yes",
+        "surface": "paved",
+        "tunnel": "yes",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6751803,
+            49.4057532
+          ],
+          [
+            8.67498,
+            49.4057539
+          ],
+          [
+            8.6749632,
+            49.4057598
+          ],
+          [
+            8.6749489,
+            49.4057726
+          ]
+        ]
+      },
+      "id": "way/158368930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/171729947",
+        "highway": "footway",
+        "layer": "-1",
+        "source": "HiRes aerial imagery",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7369167,
+            49.4171113
+          ],
+          [
+            8.7368551,
+            49.4170346
+          ]
+        ]
+      },
+      "id": "way/171729947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/171776284",
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "source": "HiRes aerial imagery",
+        "surface": "concrete",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7332902,
+            49.4157285
+          ],
+          [
+            8.7333333,
+            49.4156895
+          ]
+        ]
+      },
+      "id": "way/171776284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/172091896",
+        "highway": "service",
+        "layer": "-1",
+        "surface": "cobblestone",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6957198,
+            49.414277
+          ],
+          [
+            8.6957222,
+            49.4143312
+          ]
+        ]
+      },
+      "id": "way/172091896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/177662966",
+        "layer": "-1",
+        "name": "Forellenbach",
+        "source:geometry": "HiRes aerial imagery",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7451114,
+            49.3921408
+          ],
+          [
+            8.745425,
+            49.391808
+          ],
+          [
+            8.745481,
+            49.3917948
+          ]
+        ]
+      },
+      "id": "way/177662966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179552451",
+        "layer": "-1",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7088368,
+            49.4062746
+          ],
+          [
+            8.7088266,
+            49.4062836
+          ],
+          [
+            8.7087312,
+            49.4063653
+          ],
+          [
+            8.7085832,
+            49.4064386
+          ],
+          [
+            8.7083059,
+            49.4066166
+          ]
+        ]
+      },
+      "id": "way/179552451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199227350",
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "source:geometry": "Bing 2012",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6895549,
+            49.4076356
+          ],
+          [
+            8.6895902,
+            49.4076199
+          ],
+          [
+            8.6896337,
+            49.4076117
+          ],
+          [
+            8.6897113,
+            49.4076088
+          ],
+          [
+            8.6896461,
+            49.4075719
+          ],
+          [
+            8.6896177,
+            49.4075505
+          ],
+          [
+            8.6895991,
+            49.40753
+          ]
+        ]
+      },
+      "id": "way/199227350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199781137",
+        "highway": "service",
+        "layer": "-1",
+        "note": "See http://www.openstreetmap.org/note/167755 for discussion about tunnel=yes|building_passage",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6769631,
+            49.4173258
+          ],
+          [
+            8.6768607,
+            49.4173208
+          ],
+          [
+            8.6767108,
+            49.4173169
+          ]
+        ]
+      },
+      "id": "way/199781137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199781138",
+        "highway": "service",
+        "layer": "-1",
+        "note": "See http://www.openstreetmap.org/note/167755 for discussion about tunnel=yes|building_passage",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6769838,
+            49.4171747
+          ],
+          [
+            8.6768108,
+            49.417191
+          ],
+          [
+            8.6766532,
+            49.4172978
+          ]
+        ]
+      },
+      "id": "way/199781138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199845920",
+        "access": "private",
+        "highway": "service",
+        "layer": "-1",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6853112,
+            49.4138743
+          ],
+          [
+            8.6853437,
+            49.413764
+          ]
+        ]
+      },
+      "id": "way/199845920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/208331239",
+        "access": "private",
+        "highway": "service",
+        "layer": "-1",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6916814,
+            49.3815205
+          ],
+          [
+            8.6918134,
+            49.3815219
+          ]
+        ]
+      },
+      "id": "way/208331239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/218641030",
+        "highway": "service",
+        "layer": "-1",
+        "maxheight": "below_default",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.690024,
+            49.4167359
+          ],
+          [
+            8.6902583,
+            49.4167338
+          ],
+          [
+            8.6902639,
+            49.4167338
+          ]
+        ]
+      },
+      "id": "way/218641030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/218641893",
+        "highway": "service",
+        "layer": "-1",
+        "maxheight": "3",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6902325,
+            49.4163119
+          ],
+          [
+            8.6900242,
+            49.4163151
+          ]
+        ]
+      },
+      "id": "way/218641893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230584489",
+        "description": "Zugang zum Parkhaus P6",
+        "foot": "permissive",
+        "highway": "corridor",
+        "indoor": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6973616,
+            49.4111501
+          ],
+          [
+            8.6971978,
+            49.4111603
+          ]
+        ]
+      },
+      "id": "way/230584489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230769445",
+        "highway": "pedestrian",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6863234,
+            49.4280826
+          ],
+          [
+            8.6863209,
+            49.4281
+          ]
+        ]
+      },
+      "id": "way/230769445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238957185",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6851953,
+            49.4260787
+          ],
+          [
+            8.6850242,
+            49.4260203
+          ]
+        ]
+      },
+      "id": "way/238957185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238957186",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6848672,
+            49.4263608
+          ],
+          [
+            8.6847129,
+            49.4262854
+          ]
+        ]
+      },
+      "id": "way/238957186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/243502830",
+        "highway": "footway",
+        "layer": "-1",
+        "source:geometry": "HiRes aerial imagery",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.741017,
+            49.4176071
+          ],
+          [
+            8.740968,
+            49.4175121
+          ]
+        ]
+      },
+      "id": "way/243502830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/248142417",
+        "bicycle": "yes",
+        "highway": "footway",
+        "surface": "paving_stones",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.66002,
+            49.3824797
+          ],
+          [
+            8.6598092,
+            49.382481
+          ]
+        ]
+      },
+      "id": "way/248142417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/248143343",
+        "bicycle": "yes",
+        "highway": "footway",
+        "surface": "paving_stones",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6603082,
+            49.3828545
+          ],
+          [
+            8.6604406,
+            49.382845
+          ]
+        ]
+      },
+      "id": "way/248143343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253080536",
+        "alt_name": "Molkenkurbahn",
+        "electrified": "no",
+        "gauge": "1000",
+        "layer": "-1",
+        "name": "Bergbahn Heidelberg",
+        "oneway": "no",
+        "operator": "Heidelberger Straßen- und Bergbahn AG",
+        "railway": "funicular",
+        "start_date": "1890-03-30",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7128001,
+            49.409447
+          ],
+          [
+            8.7127603,
+            49.4095111
+          ]
+        ]
+      },
+      "id": "way/253080536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253080547",
+        "highway": "footway",
+        "layer": "-1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7119524,
+            49.4111187
+          ],
+          [
+            8.7119019,
+            49.4112383
+          ]
+        ]
+      },
+      "id": "way/253080547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253080548",
+        "highway": "footway",
+        "layer": "-1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7118519,
+            49.411228
+          ],
+          [
+            8.711895,
+            49.4111094
+          ]
+        ]
+      },
+      "id": "way/253080548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253080551",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7118519,
+            49.411228
+          ],
+          [
+            8.7119019,
+            49.4112383
+          ],
+          [
+            8.7118719,
+            49.4113174
+          ],
+          [
+            8.711943,
+            49.41135
+          ],
+          [
+            8.7119139,
+            49.4113879
+          ]
+        ]
+      },
+      "id": "way/253080551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253996776",
+        "artwork_type": "graffiti",
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "source": "HiRes aerial imagery",
+        "tourism": "artwork",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7178239,
+            49.4145771
+          ],
+          [
+            8.7180001,
+            49.414338
+          ]
+        ]
+      },
+      "id": "way/253996776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/276655651",
+        "layer": "-1",
+        "name": "Rohrbach",
+        "source:geometry": "HiRes aerial imagery",
+        "tunnel": "yes",
+        "waterway": "stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7001955,
+            49.3793419
+          ],
+          [
+            8.7000152,
+            49.37921
+          ]
+        ]
+      },
+      "id": "way/276655651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/277581897",
+        "access": "private",
+        "foot": "yes",
+        "highway": "path",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6808718,
+            49.4020507
+          ],
+          [
+            8.6808551,
+            49.4021953
+          ]
+        ]
+      },
+      "id": "way/277581897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286053324",
+        "electrified": "no",
+        "gauge": "320",
+        "name": "Parkbahn Märchenparadies",
+        "railway": "miniature",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7301261,
+            49.4020671
+          ],
+          [
+            8.7300093,
+            49.4020701
+          ],
+          [
+            8.7298827,
+            49.4020687
+          ],
+          [
+            8.7298,
+            49.4020616
+          ]
+        ]
+      },
+      "id": "way/286053324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/302905700",
+        "bicycle": "yes",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6749517,
+            49.4056461
+          ],
+          [
+            8.6749689,
+            49.4056463
+          ],
+          [
+            8.6751776,
+            49.405649
+          ],
+          [
+            8.6751873,
+            49.4056491
+          ],
+          [
+            8.6752146,
+            49.4056492
+          ]
+        ]
+      },
+      "id": "way/302905700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304735884",
+        "handrail:left": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "layer": "-1",
+        "lit": "yes",
+        "step_count": "8",
+        "surface": "paved",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7154773,
+            49.4114883
+          ],
+          [
+            8.7155089,
+            49.411504
+          ]
+        ]
+      },
+      "id": "way/304735884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304735886",
+        "handrail:left": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "layer": "-1",
+        "lit": "yes",
+        "step_count": "9",
+        "surface": "paved",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7155473,
+            49.4115554
+          ],
+          [
+            8.7155358,
+            49.4115771
+          ]
+        ]
+      },
+      "id": "way/304735886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304735903",
+        "highway": "footway",
+        "incline": "20%",
+        "layer": "-1",
+        "lit": "yes",
+        "smoothness": "intermediate",
+        "surface": "cobblestone",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7155089,
+            49.411504
+          ],
+          [
+            8.7155538,
+            49.4115301
+          ]
+        ]
+      },
+      "id": "way/304735903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304735907",
+        "highway": "footway",
+        "incline": "21%",
+        "layer": "-1",
+        "lit": "yes",
+        "smoothness": "intermediate",
+        "surface": "cobblestone",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7155538,
+            49.4115301
+          ],
+          [
+            8.7155473,
+            49.4115554
+          ]
+        ]
+      },
+      "id": "way/304735907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304735919",
+        "highway": "footway",
+        "incline": "9%",
+        "layer": "-1",
+        "lit": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7148473,
+            49.4110448
+          ],
+          [
+            8.7148268,
+            49.4110745
+          ],
+          [
+            8.7148256,
+            49.4110839
+          ],
+          [
+            8.7148297,
+            49.4110932
+          ],
+          [
+            8.7148398,
+            49.4111
+          ],
+          [
+            8.7148522,
+            49.4111049
+          ],
+          [
+            8.7151778,
+            49.4112232
+          ]
+        ]
+      },
+      "id": "way/304735919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/312561965",
+        "access": "private",
+        "highway": "service",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6733338,
+            49.4049405
+          ],
+          [
+            8.6731787,
+            49.4047902
+          ],
+          [
+            8.6730315,
+            49.4046476
+          ],
+          [
+            8.6728377,
+            49.4044598
+          ],
+          [
+            8.6726834,
+            49.4043103
+          ]
+        ]
+      },
+      "id": "way/312561965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313516415",
+        "access": "private",
+        "highway": "service",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6775656,
+            49.403057
+          ],
+          [
+            8.6774175,
+            49.4029121
+          ],
+          [
+            8.6772508,
+            49.4027508
+          ],
+          [
+            8.6770723,
+            49.4025717
+          ],
+          [
+            8.6769291,
+            49.402428
+          ],
+          [
+            8.6767758,
+            49.4022782
+          ]
+        ]
+      },
+      "id": "way/313516415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318715747",
+        "highway": "service",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6694488,
+            49.4093386
+          ],
+          [
+            8.6694528,
+            49.4093704
+          ]
+        ]
+      },
+      "id": "way/318715747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318715748",
+        "highway": "service",
+        "maxheight": "2",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6845579,
+            49.4064931
+          ],
+          [
+            8.6846006,
+            49.4064958
+          ]
+        ]
+      },
+      "id": "way/318715748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318715751",
+        "highway": "service",
+        "maxheight": "2.1",
+        "maxspeed": "5",
+        "service": "parking_aisle",
+        "trailer": "no",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6869961,
+            49.4056306
+          ],
+          [
+            8.6868331,
+            49.4056131
+          ]
+        ]
+      },
+      "id": "way/318715751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355489874",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "layer": "-2",
+        "maxspeed": "90",
+        "name": "Neckartalbahn",
+        "operator": "DB Netz AG",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:traffic_mode": "mixed",
+        "ref": "4100",
+        "ref:La": "41",
+        "source:geometry": "Datenquelle: LGL, www.lgl-bw.de",
+        "tunnel": "yes",
+        "tunnel:name": "Königstuhltunnel",
+        "usage": "main",
+        "voltage": "15000",
+        "workrules": "DE:EBO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.717808,
+            49.4133002
+          ],
+          [
+            8.7175715,
+            49.4129809
+          ],
+          [
+            8.7173932,
+            49.412649
+          ],
+          [
+            8.7170876,
+            49.4119657
+          ],
+          [
+            8.7167279,
+            49.4111211
+          ],
+          [
+            8.7162799,
+            49.4105396
+          ],
+          [
+            8.7158828,
+            49.4101449
+          ],
+          [
+            8.7154926,
+            49.4098126
+          ],
+          [
+            8.7149592,
+            49.409446
+          ],
+          [
+            8.7142456,
+            49.4090889
+          ],
+          [
+            8.7137841,
+            49.4088395
+          ],
+          [
+            8.7100596,
+            49.4072473
+          ],
+          [
+            8.6988319,
+            49.4024472
+          ],
+          [
+            8.6925537,
+            49.399763
+          ]
+        ]
+      },
+      "id": "way/355489874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355489877",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "layer": "-2",
+        "name": "Neckartalbahn",
+        "operator": "DB Netz AG",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:traffic_mode": "mixed",
+        "ref": "4100",
+        "ref:La": "41",
+        "source:geometry": "Datenquelle: LGL, www.lgl-bw.de",
+        "source:maxspeed": "LF7 \"9\" bei 18.4",
+        "tunnel": "yes",
+        "tunnel:name": "Königstuhltunnel",
+        "usage": "main",
+        "voltage": "15000",
+        "workrules": "DE:EBO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7178695,
+            49.4132731
+          ],
+          [
+            8.7181562,
+            49.4135926
+          ],
+          [
+            8.7182702,
+            49.4136973
+          ]
+        ]
+      },
+      "id": "way/355489877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/393061650",
+        "cutting": "yes",
+        "highway": "service",
+        "layer": "-1",
+        "service": "driveway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6775612,
+            49.3968621
+          ],
+          [
+            8.6776753,
+            49.3967996
+          ]
+        ]
+      },
+      "id": "way/393061650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/399858945",
+        "bicycle": "no",
+        "foot": "destination",
+        "highway": "footway",
+        "horse": "no",
+        "lit": "no",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6421692,
+            49.4271214
+          ],
+          [
+            8.6421216,
+            49.4272019
+          ],
+          [
+            8.642017,
+            49.4273615
+          ],
+          [
+            8.6419446,
+            49.4274793
+          ]
+        ]
+      },
+      "id": "way/399858945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404943927",
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "lit": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7199932,
+            49.4149079
+          ],
+          [
+            8.720045,
+            49.4149331
+          ]
+        ]
+      },
+      "id": "way/404943927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/405435788",
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "lit": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7203262,
+            49.4149251
+          ],
+          [
+            8.7203789,
+            49.4149487
+          ]
+        ]
+      },
+      "id": "way/405435788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497240117",
+        "highway": "service",
+        "maxheight": "2.1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6983706,
+            49.4086609
+          ],
+          [
+            8.6987149,
+            49.4087226
+          ]
+        ]
+      },
+      "id": "way/497240117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/514402456",
+        "highway": "footway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7079067,
+            49.4111372
+          ],
+          [
+            8.7079465,
+            49.4111364
+          ]
+        ]
+      },
+      "id": "way/514402456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616366904",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7118091,
+            49.4113336
+          ],
+          [
+            8.7118519,
+            49.411228
+          ]
+        ]
+      },
+      "id": "way/616366904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/658703948",
+        "highway": "path",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7145922,
+            49.4098249
+          ],
+          [
+            8.7145389,
+            49.4098196
+          ]
+        ]
+      },
+      "id": "way/658703948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/658703950",
+        "highway": "footway",
+        "incline": "23%",
+        "layer": "-1",
+        "lit": "yes",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7154723,
+            49.4114859
+          ],
+          [
+            8.715482,
+            49.4114759
+          ],
+          [
+            8.7154901,
+            49.4114791
+          ]
+        ]
+      },
+      "id": "way/658703950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/658703951",
+        "handrail:right": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "layer": "-1",
+        "step_count": "11",
+        "surface": "paved",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7155473,
+            49.4115554
+          ],
+          [
+            8.715569,
+            49.4115608
+          ],
+          [
+            8.7155815,
+            49.4115671
+          ],
+          [
+            8.7155872,
+            49.4115767
+          ],
+          [
+            8.7155854,
+            49.4115894
+          ]
+        ]
+      },
+      "id": "way/658703951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704374955",
+        "foot": "yes",
+        "highway": "cycleway",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6370017,
+            49.4007791
+          ],
+          [
+            8.6369776,
+            49.4009302
+          ]
+        ]
+      },
+      "id": "way/704374955"
+    }
+  ]
+}
