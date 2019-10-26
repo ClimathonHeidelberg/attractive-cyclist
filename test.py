@@ -25,10 +25,16 @@ keyfile = open('key.txt', 'r')
 key = keyfile.read()
 client = openrouteservice.Client(key=key) # Specify your personal API key
 # decode_polyline needs the geometry only
-geometry = client.directions(coords)['routes'][0]['geometry']
+
+profile = 'cycling-regular'
+extra_info = ['steepness', 'suitability', 'surface', 'waycategory', 'waytype']
+response = client.directions(coords, profile = 'cycling-regular', extra_info = extra_info)
+print(response)
+geometry = response['routes'][0]['geometry']
 routes.append(geometry)
 
-
+with open('response.json', 'w') as outfile:
+    json.dump(response, outfile)
 
 
 decoded = convert.decode_polyline(geometry)
