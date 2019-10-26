@@ -1,4 +1,11 @@
 #map {
-  height: 1200px;
-  width: 1200px;
+  height: 500px;
+  width: 1000px;
+  border: 1px solid black;
+}
+
+.control {
+  position: absolute;
+  right: 20;
+  top: 30;
 }
