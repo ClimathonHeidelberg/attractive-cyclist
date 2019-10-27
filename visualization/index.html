@@ -2,38 +2,49 @@
   <head>
     <meta charset="utf-8">
 
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
    crossorigin=""/>
     <link rel="stylesheet" href="style.css">
 
    <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
    crossorigin=""></script>
+   <script src="leaflet.ajax.min.js"></script>
+
+   <script src="script.js"></script>
+
 
     <title> BikeBuddy: Safe Routing</title>
   </head>
   <body onload="init()">
 
-    <div class="title">
-      <h4> Title </h4>
+    <div id = "heading">
+      <h2>BikeBuddy: Safe  Routing</h2>
     </div>
+    <div id= "map" style = "height:500px; width: 500px;"></div>
 
-   <div id="map">
+     <div id = "stuff"> <!--legende, Layer-Auswahl, Dateninfo -->
+    <div id="legend">
+      (Description) <br>
+    </div>
+    <br>
+    <div id = "select">
+      <form method="POST">
+        <b>Priority: </b>
+        <select name="select" size="1" onchange = "on_change(value)">
+          <option>Fastest</option>
+          <option>Illumination</option>
+          <option>Avoid tram tracks</option>
+        </select>
+      </form>
 
-   </div>
+    </div>
+    <br>
+    <div id= "info"></div
 
-   <div class="control">
-     Preferences <br>
-     <br>
-     Shortest Distance <br>
-     Illumination <br>
-     Avoid tram tracks <br>
-
-
-   </div>
+  </div>
 
 
   </body>

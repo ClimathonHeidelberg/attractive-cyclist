@@ -1,0 +1,28 @@
+html * {
+	font-family: sans-serif;
+	/*background-color: grey;*/
+
+}
+
+div#map {
+	/*height: 500px;
+	width: 500px;*/
+	border: 1px solid black;*/
+}
+
+div#stuff {
+	position: relative;
+	left: 530px;
+	bottom: 502px;
+
+}
+
+div#legend {
+	border: 1px solid black;
+	width: 230px;
+	padding: 5px;
+}
+
+div#heading h2 {
+	font-size: 20px;
+}

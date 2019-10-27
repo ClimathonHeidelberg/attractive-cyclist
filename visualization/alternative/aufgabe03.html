@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bike Buddy</title>
+    <script src = "libs/ol/ol.js"></script>
+    <link rel="stylesheet" href = "libs/style.css">
+  </head>
+
+
+  <body>
+    <div id = "heading">
+      <h2>BikeBuddy: Safe  Routing</h2>
+    </div>
+    <div id= "map" style = "height:500px; width: 500px;"></div>
+
+     <div id = "stuff"> <!--legende, Layer-Auswahl, Dateninfo -->
+    <div id="legend">
+      (Description) <br>
+    </div>
+    <br>
+    <div id = "select">
+      <form method="POST">
+        <b>Priority: </b>
+        <select name="select" size="1" onchange = "on_change(value)">
+          <option>Fastest</option>
+          <option>Illumination</option>
+          <option>Avoid tram tracks</option>
+        </select>
+      </form>
+
+    </div>
+    <br>
+    <div id= "info"></div
+
+  </div>
+
+
+
+
+    <script>
+
+
+
+
+var fastest = ''
+var illumination = ''
+var tram = ''
+
+  var curr_layer; // speichert den Layer, der im Moment gespeichert ist
+  var curr_src; // muss für on-click gespeichert werden
+
+var sources = [fastest, illumination, tram];
+var sources_string = ["Fastest", "Illumination", "Avoid Tram Tracks"]; // to change the layer
+var view = new ol.View({
+    projection  : "EPSG:3857",
+    center      : [1227840.61,6618599.78],
+    zoom        : 5.5
+});
+var map = new ol.Map({ // neue Karte
+    controls: ol.control.defaults({
+      zoom: true,
+      attribution: false,
+      rotate: false
+}),
+    target: "map",
+    view  : view
+  });
+
+
+function init() {
+  var openCycleMapLayer = new ol.layer.tile.TileLayer({
+    source: new OSM({
+      attributions: [
+        'All maps © <a href="https://www.opencyclemap.org/">OpenCycleMap</a>',
+        ATTRIBUTION
+      ],
+      url: 'https://{a-c}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png' +
+          '?apikey=Your API key from http://www.thunderforest.com/docs/apikeys/ here'
+    })
+  });
+  map.addLayer(openCycleMapLayer)
+
+}
+
+   //TO DO replace with file
+
+
+
+
+
+
+function on_change(style) { //kriegt einen String übergeben, der angiebt, welcher Stil/welche Daten dargestellt werden sollen
+  console.log(style);
+
+  // Überschrift aendern
+  document.getElementById("heading").innerHTML =
+  "<h2>Betriebe in Deutschland, die " + style + " halten. Nach Bundesländern, 2010.</h2>";// Überschrift ändern
+
+  style = style.toLowerCase();
+
+  //Legende aendern
+  document.getElementById("get_legend").src =
+  "http://osmatrix.geog.uni-heidelberg.de:8080/geoserver_2.8.1/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=" + layer_name + "&STYLE=" + style;;
+
+  if(curr_layer) {
+    map.removeLayer(curr_layer); // alten Layer entfernen
+  }
+  for(var i = 0; i < sources_string.length; i++) { // entsprechenden Layer finden und hinzufuegen
+    if(sources_string[i] == style) {
+      add_wms(sources[i]);
+      break;
+    }
+  }
+
+}
+
+init();
+    </script>
+  </body>
+</html>
