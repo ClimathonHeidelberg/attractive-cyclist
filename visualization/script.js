@@ -33,6 +33,13 @@ function init() {
 
     fastest.addTo(map); // default
     cur_layer = fastest;
+
+
+		car_length = 3.2
+		carbon = car_length * 0.1204
+		//carbon = toString(carbon)
+		console.log(carbon);
+		document.getElementById("number").innerHTML = carbon
 }
 
 
@@ -46,12 +53,13 @@ function on_change(value) {
    if (value == 'Shortest') {
      //console.log(fastest);
      fastest.addTo(map)
+		 document.getElementById('pic').src = 'data/shortest.png';
   } else if (value == "Illumination") {
-    console.log(illumination);
     illumination.addTo(map);
+		document.getElementById('pic').src = 'data/illumination.png';
   } else if (value == "Avoid tram tracks") {
-    console.log(tram);
     tram.addTo(map);
+		document.getElementById('pic').src = 'data/tram.png';
   }
 }
 

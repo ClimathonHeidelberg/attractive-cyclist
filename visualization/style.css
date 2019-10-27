@@ -1,11 +1,17 @@
 #map {
-  height: 500px;
+  height: 400px;
   width: 1000px;
   border: 1px solid black;
 }
 
-.control {
+.right {
   position: absolute;
-  right: 20;
+  right: -300;
   top: 30;
+  border: 1px light grey;
+}
+
+.picture {
+  height: 60%;
+  width: 60%;
 }
